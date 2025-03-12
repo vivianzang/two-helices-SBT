@@ -2,10 +2,6 @@
 
 This repository contains MATLAB codes implementing **Slender-Body Theory (SBT)** for low-Reynolds-number flow around one or two helices. 
 
-## Adapted From
-The underlying approach is adapted from:
-> Bruce (2025). *Helical Swimming Simulator* (https://www.mathworks.com/matlabcentral/fileexchange/39265-helical-swimming-simulator), MATLAB Central File Exchange. Retrieved February 25, 2025.
-
 ---
 
 ## 1. Overview
@@ -40,11 +36,15 @@ The underlying approach is adapted from:
 
 ---
 
-## 3. Basic Usage
+## 3. Acknowledgments
 
-1. **Clone or Download** the repository.
-2. **Open MATLAB** in the downloaded folder.
-3. Run one of the main scripts (e.g. `main_double_helix.m`):
-   ```matlab
-   % Example
-   >> main_double_helix
+This implementation follows the methods discussed in:
+
+- **Kim & Powers (2004)**: Hydrodynamic interactions between rotating helices. *Phys. Rev. E* **69**, 061910.  
+- **Lighthill (1976)**: Flagellar hydrodynamics. *SIAM Rev.* **18**, 161--230.  
+- **Rodenborn et al. (2013)**: Propulsion of microorganisms by a helical flagellum. *Proc. Natl. Acad. Sci. USA* **110**, 338--347.
+
+The code is also partially adapted from:
+
+> **Bruce (2025).** *Helical Swimming Simulator* (https://www.mathworks.com/matlabcentral/fileexchange/39265-helical-swimming-simulator),  
+> MATLAB Central File Exchange. Retrieved February 25, 2025.
