@@ -4,10 +4,7 @@ This repository contains MATLAB codes implementing **Slender-Body Theory (SBT)**
 
 ---
 
-## 1. Overview
-
-- **Core Idea**: We discretize a slender filament (helix) into \(N\) segments and solve for the force density via a linear system \(M \mathbf{f} = \mathbf{U}\), where \(M\) includes both the local diagonal approximation and off-diagonal stokeslets.
-- **Functions**:
+## 1. Functions
   - `solveOneHelixKnSBT.m` – Discretizes a **single** helix and solves for the force density.
   - `solveTwoHelixKnSBT.m` – Discretizes **two** helices (offset or phase-shifted).
   - `calculateVelocity.m` – Computes the velocity at user-specified spatial points due to the solved force distribution.
